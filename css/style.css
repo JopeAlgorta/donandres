@@ -314,12 +314,18 @@ h3.menu-item-title {
 		background: url('../images/logo-medium.png') no-repeat;
 		width: 100px;
 		height: 100px;
-		margin: 5px 5px 5px 0;
+		margin: 0px;
+	}
+
+	.logo-container {
+		margin: 10px 10px 0px 10px;
+		width: 100px;
+		height: 100px;
 	}
 
 	.container .jumbotron {
-    background: url('../images/Donandres-mediana.jpg') no-repeat;
-    height: 528px;	
+	    background: url('../images/Donandres-mediana.jpg') no-repeat;
+    	height: 528px;	
 	}
 }
 
@@ -332,9 +338,14 @@ h3.menu-item-title {
 		background: url('../images/logo-medium.png') no-repeat;
 		width: 100px;
 		height: 100px;
-		margin: 5px 5px 5px 0;
+		margin: 0px;
 	}
 
+	.logo-container {
+		margin: 10px 10px 0px 10px;
+		width: 100px;
+		height: 100px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -342,7 +353,13 @@ h3.menu-item-title {
 		background: url('../images/logo-medium.png') no-repeat;
 		width: 100px;
 		height: 100px;
-		margin: 5px 5px 5px 0;
+		margin: 0px;
+	}
+
+	.logo-container {
+		margin: 10px 10px 0px 10px;
+		width: 100px;
+		height: 100px;
 	}
 
 	.navbar-brand {
@@ -430,6 +447,19 @@ h3.menu-item-title {
 
 @media (max-width: 479px) {
 
+	#logo-img {
+		background: url('../images/logo-medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 0px;
+	}
+
+	.logo-container {
+		margin: 10px 10px 0px 10px;
+		width: 100px;
+		height: 100px;
+	}
+
 	.col-xxs {
 		position: relative;
 		min-height: 1px;
@@ -445,12 +475,12 @@ h3.menu-item-title {
 
 	.navbar-brand h1 {
 		padding-top: 5px;
-		font-size: 10vw;
+		font-size: 9vw;
 	}
 	
 	.navbar-brand h3 {
 		padding-top: 5px;
-		font-size: 6vw;
+		font-size: 5vw;
 	}
 
 	#menu-tile, #specials-tile, #map-tile{
