@@ -439,6 +439,10 @@ h3.menu-item-title {
 		width: 100%;
 	}
 
+	.hidden-xxs {
+  		display: none !important;
+	}
+
 	.navbar-brand h1 {
 		padding-top: 5px;
 		font-size: 10vw;
